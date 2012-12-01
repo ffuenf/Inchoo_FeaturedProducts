@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+    <name>Inchoo_FeaturedProducts</name>
+    <version>2.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Featured Products Extension by Inchoo</summary>
+    <description>&lt;strong&gt;This extension gives your Magento ability for easy management of featured products. Frontend features include separate interface for listing of all featured products and a block usage for easy placement to the interfaces of your choice.&lt;/strong&gt;&#xD;
+&#xD;
+Frontend features include:&#xD;
+&#xD;
+Featured Products Interface where you can see the list of all featured products and use the options like Sort by, Show X number of products and View type choice.&#xD;
+Featured Products Block gives you the ability to place the block to the interface or page of your choice. It is mostly used to display featured products o the home page.&#xD;
+&#xD;
+Backend features include:&#xD;
+&#xD;
+1. Easy Management of Featured products on multi store level via separate interface. You do not have to edit every single product and set it to be featured. You will get the special interface where you will be able to choose the products you want to feature from the list.&#xD;
+&#xD;
+2. Configuration Options - you will be able to choose layout for Featured product lising interface, use SEO features, Choose the number of products in the block and choose default sort order.</description>
+    <notes>Release notes (2.0.0):&#xD;
+&#xD;
+ 1. Reorganized System-&gt;Configuration section - separated configuration for CMS page block from featured-products page config&#xD;
+ 2. Added configuration option for custom thumbnail image size&#xD;
+ 3. Added configuration option to turn On/Off the extension&#xD;
+ 4. Added option to show/hide price and 'addToCart' button on both: featured block and featured page products&#xD;
+ 5. Fixed store scope implementation bug&#xD;
+ 6. Added export to CSV and to XML functionality on grid&#xD;
+ 7. Added product edit possibility from featured grid&#xD;
+ 8. Fixed row click on featured products grid&#xD;
+ 9. Tested on Magento 1.7.0.2&#xD;
+</notes>
+    <authors><author><name>Inchoo</name><user>inchoo</user><email>web@inchoo.net</email></author></authors>
+    <date>2012-11-30</date>
+    <time>14:28:53</time>
+    <contents><target name="magecommunity"><dir name="Inchoo"><dir name="FeaturedProducts"><dir name="Block"><dir name="Adminhtml"><dir name="Edit"><file name="Grid.php" hash="892fd7b8753c1eaa5f11b01b1994d90a"/><dir name="Renderer"><file name="Name.php" hash="4cfb5b4dd1b10208fc6e61bd6e2343b6"/><file name="Visibility.php" hash="a3dd71213f881c12f896c220efa504ee"/></dir></dir><file name="Edit.php" hash="d4e0bca84713df83c55edfbc2b3dea2d"/></dir><file name="Listing.php" hash="c4b1216a0f19f7b34e41ccec8b803d7e"/><dir name="Product"><file name="List.php" hash="b62af9edf6b65f80fad21655bbd64391"/></dir></dir><dir name="Helper"><file name="Data.php" hash="8ff2054efd2ea6743fdf5475d412a82d"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Sort.php" hash="36ff0b7b17ad918698e03d54a1a1425f"/></dir></dir></dir></dir><file name="README.txt" hash="44db49ebc1d9763bc971633eb42e27d1"/><dir name="controllers"><dir name="Adminhtml"><file name="FeaturedController.php" hash="da45c67a3c2baf462cbceb5a58c48170"/></dir><file name="IndexController.php" hash="3dfae0f41f56a8556fb016f913d1ac52"/></dir><dir name="etc"><file name="adminhtml.xml" hash="695e67aa5f682c60827e6f6b4132fe4e"/><file name="config.xml" hash="9c277f5e0c30d389a05ade763c6788b6"/><file name="system.xml" hash="5f1a01276b58af7a2d177c3c2710946d"/></dir><dir name="sql"><dir name="featuredproducts_setup"><file name="mysql4-install-1.0.1.php" hash="84a17f1c7265287d36d864d3403a034e"/><file name="mysql4-upgrade-1.0.1-1.1.1.php" hash="c9979f1ab35ed2ddc3805490edb33067"/><file name="mysql4-upgrade-1.0.1-1.1.3.php" hash="c9979f1ab35ed2ddc3805490edb33067"/><file name="mysql4-upgrade-1.1.3-1.2.0.php" hash="e2162c8455ef417f4949267fd0873f38"/><file name="mysql4-upgrade-1.2.0-1.2.1.php" hash="412fd35f86b07f3f2c223b1149cd8dfa"/><file name="mysql4-upgrade-1.2.1-1.2.2.php" hash="1aebc55083e4db80de8d33afc8d181b5"/><file name="mysql4-upgrade-1.2.2-1.2.3.php" hash="1aebc55083e4db80de8d33afc8d181b5"/><file name="upgrade-1.2.3-2.0.0.php" hash="b967091677e6813b604b6128ef756f6f"/></dir></dir></dir><dir name="Notes"><dir name="Block"><dir name="System"><dir name="Config"><dir name="Form"><dir name="Fieldset"><dir name="Notes"><file name="Extensions.php" hash="064b68f086f9849290d4bc465609c4f0"/></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Config.php" hash="8825f1274efe217430322d6bc1e6242d"/><file name="Data.php" hash="5df164837cbba0fb2b448c8e1fb0f4b2"/></dir><dir name="Model"><dir name="Feed"><file name="Abstract.php" hash="7ccd263ba52d1a2d0567d9327b80c698"/><file name="Updates.php" hash="cc67389befdf07ef4f239b4d1a50cac4"/></dir><file name="Feed.php" hash="40964d8754a77e519ba41dd8ae214d48"/><file name="Observer.php" hash="6217dc9019cb42d6ab1378418e31a890"/></dir><dir name="etc"><file name="config.xml" hash="88dac0780061fd905458c5ab48d0fe4d"/><file name="system.xml" hash="ce208582f964ca08d84688a426e1ccdf"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="inchoo"><dir name="featuredproducts"><file name="block_featured_products.phtml" hash="d845c0401a6a173573a4dfc98066e277"/><file name="list.phtml" hash="8e23f66d26f0610106508b5285b1e646"/><file name="view.phtml" hash="3aa94131398d5565a3764d3a421a2582"/></dir></dir></dir><dir name="layout"><file name="inchoofeaturedproducts.xml" hash="90e12ec6ea7224fbb58f6e0e16bbf927"/></dir></dir></dir><dir name="enterprise"><dir name="default"><dir name="template"><dir name="inchoo"><dir name="featuredproducts"><file name="block_featured_products.phtml" hash="d845c0401a6a173573a4dfc98066e277"/><file name="list.phtml" hash="8e23f66d26f0610106508b5285b1e646"/><file name="view.phtml" hash="3aa94131398d5565a3764d3a421a2582"/></dir></dir></dir><dir name="layout"><file name="inchoofeaturedproducts.xml" hash="90e12ec6ea7224fbb58f6e0e16bbf927"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Inchoo_FeaturedProducts.xml" hash="3e59c08e9c566fdf15d3ccbf5eb40de0"/><file name="Inchoo_Notes.xml" hash="9aa8738c2d5bb650dd3405a33f660333"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="images"><dir name="inchoo"><file name="inchoo-small-logo.png" hash="b9107bf27dc0a9e5f2138b23a811536f"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

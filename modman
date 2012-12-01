@@ -1,0 +1,9 @@
+app/code/community/Inchoo/FeaturedProducts app/code/community/Inchoo/FeaturedProducts
+app/code/community/Inchoo/Notes app/code/community/Inchoo/Notes
+app/design/frontend/default/default/layout/inchoofeaturedproducts.xml app/design/frontend/default/default/layout/inchoofeaturedproducts.xml
+app/design/frontend/default/default/template/incho/featuredproducts app/design/frontend/default/default/template/incho/featuredproducts
+app/design/frontend/enterprise/default/layout/inchoofeaturedproducts.xml app/design/frontend/enterprise/default/layout/inchoofeaturedproducts.xml
+app/design/frontend/enterprise/default/template/incho/featuredproducts app/design/frontend/enterprise/default/template/incho/featuredproducts
+app/etc/modules/Inchoo_FeaturedProducts.xml app/etc/modules/Inchoo_FeaturedProducts.xml
+app/etc/modules/Inchoo_Notes.xml app/etc/modules/Inchoo_Notes.xml
+app/skin/adminhtml/default/default/images/inchoo/inchoo-small-logo.png app/skin/adminhtml/default/default/images/inchoo/inchoo-small-logo.png
